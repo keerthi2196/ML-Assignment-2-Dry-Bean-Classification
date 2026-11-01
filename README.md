@@ -14,7 +14,7 @@ The objective is to classify a dry bean sample into one of seven varieties using
 - **Dataset citation:** Koklu, M. and Ozkan, I.A. (2020), *Multiclass Classification of Dry Beans Using Computer Vision and Machine Learning Techniques*, Computers and Electronics in Agriculture. UCI DOI: https://doi.org/10.24432/C50S4B
 
 ## c. GitHub Repository Link
-Add your repository URL here: **[PASTE GITHUB REPOSITORY URL]**
+Add your repository URL here:https://github.com/keerthi2196/ML-Assignment-2-Dry-Bean-Classification
 
 ## d. Models used and evaluation metrics
 An 80:20 stratified train/test split was used with `random_state=42`. Precision, recall, and F1 are weighted averages across the seven classes. AUC is calculated using the one-vs-rest (OvR) multiclass method with weighted averaging.
@@ -46,7 +46,7 @@ An 80:20 stratified train/test split was used with `random_state=42`. Precision,
 - Scaling is fitted inside each pipeline using training data only, preventing test-data leakage.
 
 ## Streamlit application
-Live app URL: **[PASTE STREAMLIT COMMUNITY CLOUD URL]**
+Live app URL: https://ml-assignment-2-dry-bean-classification-3c6jjuwc6ciuckytavtje9.streamlit.app/
 
 The app accepts a labelled test CSV, lets the evaluator select one of the five saved models, and displays accuracy, AUC, precision, recall, F1, MCC, a confusion matrix, and a classification report. The app does not retrain models on uploaded test data.
 
